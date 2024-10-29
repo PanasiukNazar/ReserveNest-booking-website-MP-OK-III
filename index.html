@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ЗаповедноеГнездо</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="display-6 text-dark">ЗаповедноеГнездо</h1>
+                    <!-- <img src="img/logo.png" alt="Логотип"> -->
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Главная</a
+                        >
+                        <a href="about.html" class="nav-item nav-link">О нас</a>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Услуги</a
+                        >
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Отзывы</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Контакты</a
+                        >
+                    </div>
+                    <a
+                        href="contact.html"
+                        class="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0"
+                        >Свяжитесь с нами</a
+                    >
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Carousel Start -->
+        <div class="header-carousel owl-carousel">
+            <div class="header-carousel-item">
+                <img
+                    src="img/carousel-1.jpg"
+                    class="img-fluid w-100"
+                    alt="Изображение"
+                />
+                <div class="carousel-caption">
+                    <div class="container align-items-center py-4">
+                        <div class="row g-5 align-items-center">
+                            <div
+                                class="col-xl-7 fadeInLeft animated"
+                                data-animation="fadeInLeft"
+                                data-delay="1s"
+                                style="animation-delay: 1s"
+                            >
+                                <div class="text-start">
+                                    <h4
+                                        class="text-primary text-uppercase fw-bold mb-4"
+                                    >
+                                        Добро пожаловать в Заповедное Гнездо
+                                    </h4>
+                                    <h1
+                                        class="display-4 text-uppercase text-white mb-4"
+                                    >
+                                        Откройте для себя новые возможности
+                                        бронирования
+                                    </h1>
+                                    <p class="mb-4 fs-5">
+                                        Исследуйте захватывающие варианты
+                                        бронирования отелей, загородных домов,
+                                        загородных комплексов и баз отдыха.
+                                        Здесь вас ждут комфорт и лучшие условия
+                                        для отдыха и восстановления.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel-item">
+                <img
+                    src="img/carousel-2.jpg"
+                    class="img-fluid w-100"
+                    alt="Изображение"
+                />
+                <div class="carousel-caption">
+                    <div class="container py-4">
+                        <div class="row g-5 align-items-center">
+                            <div
+                                class="col-xl-7 fadeInLeft animated"
+                                data-animation="fadeInLeft"
+                                data-delay="1s"
+                                style="animation-delay: 1s"
+                            >
+                                <div class="text-start">
+                                    <h4
+                                        class="text-primary text-uppercase fw-bold mb-4"
+                                    >
+                                        Откройте свой потенциал
+                                    </h4>
+                                    <h1
+                                        class="display-4 text-uppercase text-white mb-4"
+                                    >
+                                        Удобное бронирование для вашего отдыха
+                                    </h1>
+                                    <p class="mb-4 fs-5">
+                                        Забронируйте идеальный загородный дом
+                                        или комплекс для отдыха с друзьями и
+                                        семьей. Мы предлагаем широкий выбор баз
+                                        отдыха, чтобы сделать ваш отпуск
+                                        незабываемым и полным удовольствий.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid feature py-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-item">
+                            <img
+                                src="img/feature-1.jpg"
+                                class="img-fluid rounded w-100"
+                                alt="Изображение"
+                            />
+                            <div class="feature-content p-4">
+                                <div class="feature-content-inner">
+                                    <h4 class="text-white">
+                                        Откройте для себя возможности
+                                        бронирования
+                                    </h4>
+                                    <p class="text-white">
+                                        Испытайте преимущества удобного
+                                        бронирования отелей, загородных домов,
+                                        загородных комплексов и баз отдыха. Мы
+                                        предлагаем вам широкий выбор мест для
+                                        отдыха, чтобы сделать ваш отпуск
+                                        незабываемым и комфортным. Погрузитесь в
+                                        мир расслабления и наслаждения, открывая
+                                        новые горизонты для своего отдыха.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-item">
+                            <img
+                                src="img/feature-3.jpg"
+                                class="img-fluid rounded w-100"
+                                alt="Изображение"
+                            />
+                            <div class="feature-content p-4">
+                                <div class="feature-content-inner">
+                                    <h4 class="text-white">
+                                        Бронирование для вашего идеального
+                                        отдыха
+                                    </h4>
+                                    <p class="text-white">
+                                        Забронируйте идеальное место для отдыха
+                                        с друзьями и семьей. Наши загородные
+                                        комплексы и базы отдыха предлагают все
+                                        необходимое для незабываемых моментов и
+                                        новых впечатлений. Откройте для себя мир
+                                        загородного отдыха и создайте
+                                        воспоминания, которые останутся с вами
+                                        на всю жизнь.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about pb-5">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">Наш подход</h4>
+                            <h1 class="display-5 mb-4">
+                                Наша концепция для создания комфортного отдыха
+                            </h1>
+                            <p class="mb-5">
+                                В быстро меняющемся мире бронирования, наличие
+                                четкого и продуманного подхода к организации
+                                отдыха является основой для достижения
+                                максимального комфорта. Наш подход к
+                                бронированию основан на инновациях,
+                                стратегическом понимании и глубоком знании рынка
+                                жилья. В центре этого подхода лежит стремление
+                                предложить уникальные варианты бронирования
+                                отелей, загородных домов, загородных комплексов
+                                и баз отдыха. Этот подход обеспечивает не только
+                                мгновенные возможности для отдыха, но и
+                                гарантирует длительное удовлетворение
+                                потребностей клиентов через внимательное
+                                планирование и продуманный выбор мест.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="position-relative rounded">
+                            <div class="rounded" style="margin-top: 40px">
+                                <div class="row g-0">
+                                    <div class="col-lg-12">
+                                        <div class="rounded mb-4">
+                                            <img
+                                                src="img/approach.jpg"
+                                                class="img-fluid rounded w-100"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Ticket Packages Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div
+                        class="col-lg-12 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="packages-item h-100">
+                            <h4 class="text-primary">
+                                Создайте незабываемый отдых
+                            </h4>
+                            <h1 class="display-5 mb-4">
+                                Революция в бронировании отелей и загородных
+                                комплексов
+                            </h1>
+                            <p class="mb-4">
+                                В динамичном мире отдыха важно быть на шаг
+                                впереди, что требует инновационного подхода и
+                                глубокого понимания потребностей клиентов. Наш
+                                подход к бронированию фокусируется на уникальных
+                                возможностях, которые предлагает каждый
+                                загородный дом, загородный комплекс и база
+                                отдыха. Мы обеспечиваем доступ к лучшим местам
+                                для отдыха, предлагая индивидуальные решения,
+                                которые помогут вам достичь ваших целей и
+                                гарантируют комфортный отдых.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div
+                            class="pricing-item bg-dark rounded text-center p-5 h-100"
+                        >
+                            <div class="pb-4">
+                                <h2
+                                    class="mb-4 pb-4 text-primary border-bottom"
+                                >
+                                    Уникальные возможности бронирования
+                                </h2>
+                                <p class="mb-4">
+                                    Наши предложения по бронированию отелей и
+                                    загородных домов переосмысляют традиционный
+                                    подход. Мы сосредоточены на обеспечении
+                                    комфортного и безопасного проживания, где
+                                    клиенты могут насладиться всеми прелестями
+                                    загородного отдыха. Наша цель — обеспечить
+                                    не только удовольствие от отдыха, но и
+                                    создать возможности для семейных и дружеских
+                                    встреч в лучших загородных комплексах и на
+                                    базах отдыха.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <div
+                            class="pricing-item bg-primary rounded text-center p-5 h-100"
+                        >
+                            <div class="pb-4">
+                                <h2 class="text-dark mb-4 pb-4 border-bottom">
+                                    Бронирование: ваш путь к идеальному отдыху
+                                </h2>
+                                <p class="text-white mb-4">
+                                    Бронирование отелей, загородных домов и баз
+                                    отдыха — это ключ к созданию незабываемого
+                                    отдыха. Мы предлагаем широкий выбор
+                                    вариантов, чтобы соответствовать вашим
+                                    предпочтениям и бюджету. Независимо от того,
+                                    ищете ли вы уединение или активный отдых на
+                                    природе, наши решения помогут вам
+                                    насладиться каждым моментом вашего
+                                    путешествия.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ticket Packages End -->
+
+        <!-- Attractions Start -->
+        <div class="container-fluid attractions py-5">
+            <div class="container attractions-section py-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Представляем наши предложения</h4>
+                    <h1 class="display-5 text-white mb-4">
+                        Бронирование отелей и загородных комплексов для вашего
+                        комфорта
+                    </h1>
+                    <p class="text-white mb-0">
+                        Наши предложения по бронированию отелей, загородных
+                        домов и баз отдыха подтверждают нашу приверженность к
+                        обеспечению высококачественного отдыха. Мы фокусируемся
+                        на уникальных инициативах, которые не только гарантируют
+                        комфортное пребывание, но и способствуют устойчивому
+                        развитию регионов. От захватывающих загородных
+                        комплексов до уютных баз отдыха — каждое из наших
+                        предложений тщательно продумано для максимального
+                        удобства и создания долгосрочных впечатлений. Исследуйте
+                        наши уникальные предложения и узнайте, как мы меняем
+                        подход к бронированию наилучших мест для отдыха.
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel attractions-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <img
+                            src="img/attraction-1.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Загородные комплексы: идеальное место для отдыха</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <img
+                            src="img/attraction-2.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Бронирование отелей: ваш комфорт в приоритете</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <img
+                            src="img/attraction-3.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Загородные дома: уединение и комфорт</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.8s"
+                    >
+                        <img
+                            src="img/attraction-4.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Базы отдыха: активный отдых на природе</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="1s"
+                    >
+                        <img
+                            src="img/attraction-5.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Незабываемые моменты: отдых с семьей и друзьями</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="1s"
+                    >
+                        <img
+                            src="img/attraction-6.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Идеальные предложения для вашего отдыха</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Attractions End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog pb-5">
+            <div class="container pb-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Наш Блог</h4>
+                    <h1 class="display-5 mb-4">
+                        Изучите мир бронирования отелей и загородных комплексов
+                    </h1>
+                    <p class="mb-0">
+                        Оставайтесь в курсе новинок и трендов в сфере
+                        бронирования отелей, загородных домов и баз отдыха с
+                        нашими последними статьями. Мы рассматриваем самые
+                        актуальные темы, связанные с отдыхом, включая уютные
+                        загородные комплексы и удобные базы отдыха. Наш блог
+                        предлагает полезные советы как для опытных
+                        путешественников, так и для тех, кто только начинает
+                        свой путь в мире бронирования. Узнайте о новых
+                        возможностях для незабываемого отдыха и о том, как
+                        правильно выбирать места для отдыха.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-1.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </a>
+                                <div class="blog-date">
+                                    <i class="fas fa-clock me-2"></i>19 августа,
+                                    2024
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Бронирование загородных домов</a
+                                >
+                                <p class="mb-4">
+                                    Узнайте, как выбрать идеальный загородный
+                                    дом для вашего отдыха. Эта статья предлагает
+                                    советы по бронированию, а также важные
+                                    моменты.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-2.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </a>
+                                <div class="blog-date">
+                                    <i class="fas fa-clock me-2"></i>23 мая,
+                                    2024
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Загородные комплексы: лучшее место для
+                                    отдыха</a
+                                >
+                                <p class="mb-4">
+                                    Узнайте о преимуществах загородных
+                                    комплексов и как они могут стать отличным
+                                    выбором для семейного отдыха или уединения с
+                                    природой.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-3.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </a>
+                                <div class="blog-date">
+                                    <i class="fas fa-clock me-2"></i>19 июня,
+                                    2024
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Базы отдыха: активный отдых на природе</a
+                                >
+                                <p class="mb-4">
+                                    Откройте для себя лучшие базы отдыха для
+                                    активного отдыха. В этой статье мы
+                                    рассмотрим, как правильно выбрать базу
+                                    отдыха для незабываемых впечатлений.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <a href="index.html" class="p-0">
+                                <h4 class="text-white mb-4">
+                                    ЗаповедноеГнездо
+                                </h4>
+                            </a>
+                            <p class="mb-2">
+                                Мы предлагаем широкий выбор вариантов для
+                                бронирования отелей, загородных домов и баз
+                                отдыха. На нашем сайте вы найдете всю
+                                необходимую информацию о лучших местах для
+                                отдыха и сможете сделать свой выбор, основываясь
+                                на ваших предпочтениях и бюджете.
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fas fa-map-marker-alt text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">
+                                    Бизнес Центр Алтын Заман, пр-т. Сейфуллина
+                                    498, Алматы 050000, Казахстан
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fas fa-envelope text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">
+                                    reserve_nest@gmail.com
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fa fa-phone-alt text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">+77013839966</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Быстрые ссылки</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Главная</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i> О
+                                нас</a
+                            >
+                            <a href="contact.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Свяжитесь с нами</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i> Условия
+                                использования</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Политика конфиденциальности</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-5">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Часы работы</h4>
+                            <div class="opening-date mb-3 pb-3">
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Понедельник - Пятница:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        11:00 - 16:00
+                                    </p>
+                                </div>
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Суббота - Воскресенье:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        09:00 - 17:00
+                                    </p>
+                                </div>
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Праздничные дни:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        09:00 - 17:00
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-white mb-2">
+                                    Принимаемые способы оплаты
+                                </p>
+                                <img
+                                    src="img/payment.png"
+                                    class="img-fluid"
+                                    alt="Image"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование файлов cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот веб-сайт использует файлы cookie, чтобы предоставить
+                    вам лучший и более актуальный опыт просмотра на сайте.
+                    <a href="#">Узнайте больше...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
